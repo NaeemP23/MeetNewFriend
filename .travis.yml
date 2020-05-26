@@ -1,4 +1,5 @@
 after_success:
+  - npm install -g firebase-tools
   - "firebase deploy --token $FIREBASE_TOKEN --non-interactive"
 before_install:
   - "cd src"
