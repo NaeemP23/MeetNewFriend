@@ -209,6 +209,7 @@ const CreateEvent = (host, props) => {
                                         showSecond={false}
                                         inputReadOnly
                                         onChange={val => {
+                                            time = val;
                                             setTime(val);
                                             setValue("time-end", val);// Here we are setting the value for the registered input.
                                         }}

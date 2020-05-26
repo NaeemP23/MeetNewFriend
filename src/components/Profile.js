@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { Card, Label } from "rbx";
 import 'firebase/database';
 import 'firebase/auth';
