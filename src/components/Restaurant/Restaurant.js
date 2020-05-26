@@ -67,9 +67,6 @@ const Restaurant = ({ name, event, people }) => {
             });
     }, [image, setImage]);
 
-    const handleJoin = () => {
-        setJoined(!joined);
-    };
 
     const timeInfo = matchMeal(event["time"]);
 
@@ -200,4 +197,3 @@ const Restaurant = ({ name, event, people }) => {
 
 
 export default Restaurant;
-

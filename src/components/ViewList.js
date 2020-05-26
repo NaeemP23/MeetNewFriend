@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Container, Field, Control, Label, Select } from "rbx";
+import { Button, Container, Field } from "rbx";
 import Popup from "reactjs-popup";
 import Profile from "./Profile.js";
 

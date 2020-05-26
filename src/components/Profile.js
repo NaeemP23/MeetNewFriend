@@ -1,10 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import { Container, ButtonGroup, Button, Card, Field, Label } from "rbx";
-import Popup from "reactjs-popup";
+import { Card, Label } from "rbx";
 import 'firebase/database';
 import 'firebase/auth';
-import firebase from "../shared/firebase";
-
 
 const Profile = ({ person, people }) => {
 
@@ -36,7 +33,7 @@ const Profile = ({ person, people }) => {
                             <Label style={{padding: 80, flexDirection: 'row'}}> About Me:{" "}
 
                                     {filteredPerson["aboutme"]}
-                              
+
                                 </Label><br/>
 
                         {/* </Field>
