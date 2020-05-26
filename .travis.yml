@@ -1,6 +1,6 @@
 language: node_js
 node_js:
-  - "stable"
+  - stable
 cache:
   directories:
   - node_modules
@@ -9,5 +9,5 @@ script:
   - npm run build
 before_install:
   - cd src
-  after_success:
+after_success:
   - firebase deploy --token $FIREBASE_TOKEN --non-interactive
