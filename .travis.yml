@@ -9,4 +9,4 @@ node_js:
   - stable
 script:
   - npm test
-  - npm run build
+  - CI=false npm run build
